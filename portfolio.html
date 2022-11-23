@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комфортний Дім</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="logo link">
+                <img src="./img/logo.jpg" alt="логотип" width="80px">
+                Комфортний Дім
+            </a>
+    
+            <div class="header-contact">
+                <nav class="nav">
+                    <ul class="nav-list list">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link link ">Головна</a>
+                        </li>
+                        <li>
+                            <a href="./portfolio.html" class="nav-link link current">Портфоліо</a>
+                        </li>
+                        <li>
+                            <a href="./services.html" class="nav-link link">Послуги</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <ul class="contact-list list">
+                    <li class="contact-item contact-item--mail">
+                        <a href="mailto:1komfort.dom@ukr.net" class="contact-link link">
+                            <svg class="ikon-contact" width="16" height="12">
+                                <use href="./img/icon.svg#icon-envelope"></use>
+                            </svg>
+                            1komfort.dom@ukr.net</a>
+                    </li>
+                    <li class="contact-item contact-item--tel">
+                        <a href="tel:+380442484845" class="contact-link link">
+                            <svg class="ikon-contact " width="10" height="16">
+                                <use href="./img/icon.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 (044) 248-48-45</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio section">
+            <div class="container">
+                <h1 class="title">Реалізовані проекти</h1>
+        
+                <!-- <ul class="filter-list list">
+                    <li class="filter-item"><button type="button" class="filter-btn">Усі</button></li>
+                    <li class="filter-item"><button type="button" class="filter-btn">Житлові будинки</button></li>
+                    <li class="filter-item"><button type="button" class="filter-btn">Ресторани</button></li>
+                    <li class="filter-item"><button type="button" class="filter-btn">Офіси</button></li>
+                    <li class="filter-item"><button type="button" class="filter-btn">ТРЦ</button></li>
+                    <li class="filter-item"><button type="button" class="filter-btn">Промисловість</button></li>
+                </ul> -->
+        
+                <ul class="portfolio-list list">
+                    <li class="portfolio-item">
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/roshen-boryspil.jpg" alt="Фабрика Рошен в м.Бориспіль" width="370" class="portfolio-img">
+                            <p class="portfolio-thumb-text">Встановлення систем вентиляції, кондиціонування та технологічного холодопостачання.</p>
+                            </div>
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Фабрика "Рошен" в м.Бориспіль</h2>
+                                <p class="portfolio-text">вул. Привокзальна, 82, м.Бориспіль</p>
+                            </div>
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/piramida.jpg" alt="ТРЦ Піраміда" width="370"
+                                class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення систем вентиляції, опалення та кондиціонування.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">ТРЦ "Піраміда"</h2>
+                                <p class="portfolio-text">вул. Олександра Мішуги, 4, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/rq-white-tower.jpg" alt="жк вайт тауер" width="370"
+                                class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення систем вентиляції, опалення, кондиціонування, водопостачання та водовідведення.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">ЖК "White Tower"</h2>
+                                <p class="portfolio-text">вул. В'ячеслава Чорновола, 4, м.Кропивницький</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/farmak.jpg" alt="фармацевтична компанія фармак" width="370" class="portfolio-img">
+                            <p class="portfolio-thumb-text">Встановлення систем вентиляції та кондиціонування</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">АТ "Фармак"</h2>
+                                <p class="portfolio-text">вул. Кирилівська, 63, м. Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/restaurant-sea-food.jpg" alt="ресторан сиа фуд" width="370" class="portfolio-img">
+                            <p class="portfolio-thumb-text">Проектування систем вентиляції, та кондиціонування.<br> 
+                                Встановлення систем вентиляції та кондиціонування.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Ресторан "Catch Seafood"</h2>
+                                <p class="portfolio-text">вул. Володимирська, 12, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/malyshka-3-st.jpg" alt="ТЦ за адресою вул. Малишка 3" width="370" class="portfolio-img">
+                            <p class="portfolio-thumb-text">Встановлення систем вентиляції, опалення, кондиціонування, водопостачання та водовідведення. </p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">ТЦ "Кубик"</h2>
+                                <p class="portfolio-text">вул. Андрія Малишка, 3/1а, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/bc-horizon-office-towers.jpg" alt="бц Горизонт" width="370"
+                                class="portfolio-img">
+                                <p class="portfolio-thumb-text">Реконструкція систем вентиляції, кондиціонування та повітряного опалення.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">БЦ "Horizont Tower"</h2>
+                                <p class="portfolio-text">вул. Шовковична, 42/44, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/roshen-kyiv.jpg" alt="Фабрика Рошен в м. Київ" width="370"
+                                class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення систем вентиляції, кондиціонування та зволоження повітря</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Фабрика "Рошен" в м.Київ</h2>
+                                <p class="portfolio-text">проспект Науки, 1, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                            <img src="./img/img-portfolio/450-300/sagaidachnoy-33-st.jpg" alt="офісна будівля по вул. Сагайдачного 33" width="370"
+                                class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення систем вентиляції, кондиціонування,
+                                опалення, водопостачання та водовідведення.<br>Прокладання зовнішніх мереж водопостачання та водовідведення</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">вул. Петра Сагайдачного, 33, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-300/hotel-khreshchatyk.jpg" alt="Готель Хрещатик" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування та встановлення систем вентиляції та кондиціонування</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Готель "Хрещатик"</h2>
+                                <p class="portfolio-text">вул. Хрещатик, 14, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-300/restaurant-river-grill.jpg" alt="ресторна River Grill" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування та встановлення систем вентиляції, кондиціонування та повітряного опалення.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Ресторна "River Grill"</h2>
+                                <p class="portfolio-text">вул. Русанівська Набережна, 3а, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+ 
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-300/renaissance.jpg" alt="офісна будівля Ренесанс"
+                                    width="370" class="portfolio-img">
+                                <p class="portfolio-thumb-text">Обладнання теплового пункту, встановлення систем опалення, водопостачання та водовідведення.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офіс "Ренессанс"</h2>
+                                <p class="portfolio-text">вул. Бульварно-Кудрявська, 24, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-400/v-val-10-st.jpg" alt="офісна будівля по вул. верхній вал 10" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення системи вентиляції.
+                                Прокладання зовнішніх мереж водопостачання та водовідведення</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">вул. Верхній Вал, 10, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item missing">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-400/mr-zuma.jpg" alt="ресторна містер зума" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування та встановлення систем вентиляції та кондиціонування.</p>
+                            </div>
+                    
+                            <div class="border ">
+                                <h2 class="portfolio-subtitle">Ресторна "Mr.Zuma"</h2>
+                                <p class="portfolio-text">Спортивна площа, 1а, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-400/lepse-6-st.jpg" alt="офісна будівля" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення систем вентиляції, кондиціонування,
+                                насосної станції холодопостачання та ІТП.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">бульвар Вацлава Гавела, 6з, м.Київ</p>
+                            </div>
+
+                    </li>
+
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-520/hotel-sport.jpg" alt="готель Спорт"
+                                    width="370" class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування та встановлення систем водопостачання та водовідведення.</p>
+                            </div>
+                    
+                            <div class="border border--other-height">
+                                <h2 class="portfolio-subtitle">Готель "Park Inn by Radisson Kyiv"</h2>
+                                <p class="portfolio-text">вул. Велика Васильківська, 55, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-520/pmurnogo-22-st.jpg" alt="офісна будівля" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування систем вентиляції, кондиціонування, опалення, водопостачання та водовідведення.<br>
+                                Встановлення систем вентиляції та кондиціонування.<br>
+                                Прокладання зовнішніх мереж водопостачання та водовідведення</p>
+                            </div>
+                    
+                            <div class="border border--other-height">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">вул. Панаса Мирного, 22, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item missing">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-520/saksagansky-105-st.jpg" alt="офісна будівля" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування та встановлення систем вентиляції та кондиціонування.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">вул. Саксаганського, 105, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-600/rq-l-quarter.jpg" alt="житловий комплекс л квартал"
+                                    width="370" class="portfolio-img">
+                                <p class="portfolio-thumb-text">Встановлення систем вентиляції, опалення, водопостачання та водовідведення.<br>
+                                Прокладання зовнішніх мереж господарчо-побутової та дощової каналізації.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">ЖК "L-КвартаЛ"</h2>
+                                <p class="portfolio-text">бульвар Вацлава Гавела, 6/7а, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-600/myaylivska-7-st.jpg" alt="офісна будівля" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Проектування та встановлення систем вентиляції та кондиціонування.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">вул. Михайлівська, 7, м.Київ</p>
+                            </div>
+
+                    </li>
+                    <li class="portfolio-item">
+
+                            <div class="portfolio-thumb">
+                                <img src="./img/img-portfolio/450-600/vasylkivska-st.jpg" alt="офісна будівля" width="370"
+                                    class="portfolio-img">
+                                <p class="portfolio-thumb-text">Облаштування теплового пункту та насосної станції холодопостачання.<br> Встановлення систем вентиляції, кондиціонування та
+                                опалення.</p>
+                            </div>
+                    
+                            <div class="border">
+                                <h2 class="portfolio-subtitle">Офісна будівля</h2>
+                                <p class="portfolio-text">вул. Велика Васильківська, 98, м.Київ</p>
+                            </div>
+
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="bottom" id="contact">
+        <div class="bottom-container container">
+    
+            <a href="./index.html" class="link logo-footer">ТОВ "Комфортний Дім"</a>
+    
+            <address>
+                <ul class="bottom-list list">
+                    <li class="bottom-item">
+                        <a href="https://goo.gl/maps/tNVpU56rTAwAi2mi7" target="_blank" rel="noreferrer noopener"
+                            class="bottom-contact link">м. Київ, вул. Авіаконструктора Антонова, 5</a>
+                    </li>
+                    <li class="bottom-item">
+                        <a href="mailto:1komfort.dom@ukr.net"
+                            class="bottom-contact bottom-link link">1komfort.dom@ukr.net</a>
+                    </li>
+                    <li class="bottom-item">
+                        <a href="tel:+380442484845" class="bottom-contact bottom-link link">+38 (044) 248-48-45</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
